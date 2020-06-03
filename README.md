@@ -1,6 +1,6 @@
 # MongoDB Server Statistics To CSV Project
 
-Gathers MongoDB database server statistics (especially WiredTiger statistics) over time and appends these to a CSV file. The main Python script is useful where the MongoDB servers are remote and it is not possible to access the MongoDB servers' captured "Full Time Diagnostic Data Capture" ([FTDC](https://docs.mongodb.com/manual/administration/analyzing-mongodb-performance/#full-time-diagnostic-data-capture)) statistics, which will be the case for end users leveraging the [MongoDB Atlas](https://www.mongodb.com/cloud/atlas) DBaaS. Also see the MongoDB [t2](https://github.com/10gen/t2) time series visualisation tool.
+Gathers MongoDB database server statistics (especially WiredTiger statistics) over time and appends these to a CSV file. The main Python script is useful where the MongoDB servers are remote and it is not possible to access the MongoDB servers' captured "Full Time Diagnostic Data Capture" ([FTDC](https://docs.mongodb.com/manual/administration/analyzing-mongodb-performance/#full-time-diagnostic-data-capture)) statistics, which used to  be the case for end users leveraging the [MongoDB Atlas](https://www.mongodb.com/cloud/atlas) DBaaS. Also see the MongoDB [t2](https://github.com/10gen/t2) time series visualisation tool.
 
 For usage first ensure the '.py' script is executable and then run:
 ```
